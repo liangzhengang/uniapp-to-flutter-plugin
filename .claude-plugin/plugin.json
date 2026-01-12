@@ -1,0 +1,41 @@
+{
+  "name": "uniapp-to-flutter",
+  "displayName": "UniApp 到 Flutter 转换器",
+  "version": "1.0.0",
+  "description": "将 UniApp 页面转换为 Flutter 页面的完整工作流，包含 UI 提取、多方案生成和评审",
+  "author": "Your Name",
+  "repository": "https://github.com/yourusername/unipp-to-flutter-plugin",
+  "commands": [
+    {
+      "name": "uniapp-to-flutter",
+      "description": "将 UniApp 页面转换为 Flutter 页面",
+      "argumentHint": "<page_path>",
+      "exampleUsage": "/uniapp-to-flutter baby/index"
+    }
+  ],
+  "skills": [
+    {
+      "name": "uniapp-ui-extractor",
+      "description": "提取指定路径 UniApp 页面 UI 转成 YAML 数据"
+    }
+  ],
+  "agents": [
+    {
+      "name": "extractor-agent",
+      "description": "从 UniApp 项目提取、分析和结构化 UI 数据"
+    },
+    {
+      "name": "flutter-Component-agent",
+      "description": "将 UniApp 的自定义组件转成 Flutter 的自定义组件"
+    },
+    {
+      "name": "flutter-ui-reviewer",
+      "description": "评审 Flutter UI 实现，基于原始 UI YAML 数据进行像素级精度评分和多维度质量分析"
+    },
+    {
+      "name": "widget-builder",
+      "description": "将 Vue 组件转换为 Flutter Widget 并集成 Riverpod 状态管理"
+    }
+  ],
+  "tags": ["flutter", "uniapp", "migration", "conversion"]
+}
