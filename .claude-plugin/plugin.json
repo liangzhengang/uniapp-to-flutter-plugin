@@ -3,8 +3,11 @@
   "displayName": "UniApp 到 Flutter 转换器",
   "version": "1.0.0",
   "description": "将 UniApp 页面转换为 Flutter 页面的完整工作流，包含 UI 提取、多方案生成和评审",
-  "author": "Your Name",
-  "repository": "https://github.com/yourusername/unipp-to-flutter-plugin",
+  "author": {
+    "name": "liangzhengang",
+    "email": "liangzhengang@example.com"
+  },
+  "repository": "https://github.com/liangzhengang/uniapp-to-flutter-plugin",
   "commands": [
     {
       "name": "uniapp-to-flutter",
